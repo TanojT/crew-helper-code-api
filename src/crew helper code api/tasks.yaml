@@ -1,0 +1,5 @@
+generate_code:
+  description: >
+    Generate code based on the provided requirements.
+  expected_output: >
+    A code snippet fulfilling the specified requirements.
