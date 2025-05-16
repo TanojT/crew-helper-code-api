@@ -1,5 +1,5 @@
 from crewai import Agent, Task, Crew
-from my_project.config import agents_config, tasks_config
+from crew_helper_code_api .config import agents_config, tasks_config
 
 code_generator = Agent(
     config=agents_config['code_generator'],

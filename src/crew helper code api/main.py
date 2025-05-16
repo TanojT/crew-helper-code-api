@@ -5,7 +5,7 @@ from utils import detect_mode, format_markdown
 from logger import log_task, log_error
 from session import SessionManager
 from agents import CodeCrew
-from my_project.crew import crew
+from crew_helper_code_api.crew import crew
 
 if __name__ == "__main__":
     crew.kickoff()
